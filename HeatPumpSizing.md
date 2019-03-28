@@ -28,7 +28,7 @@ For heat exchange between water and evaporating liquid, these values are taken a
 
 A = Q/(U x LMTD)
 
-
+Mass flow required M = Q/(c_p x dT) = 
 
 
 Heat demand at Medium Temperature: 9832817 kWh. Over 2245 hours => 4379.873 kW. Maximum heat demand = 6600 kW.
@@ -40,14 +40,14 @@ Low Temperature Heat pump system:
 
 We have a system operating between the evaporator at -0.5 degrees Celsius and the condenser at 55 degrees Celsius. The ideal COP for a heat pump is given as 
 
-COP_ideal = Th/(Th - Tl) = 5.91
-Assuming a Carnot efficiency of 0.55, we have an actual COP of 3.25.
+COP_ideal = Th/(Th - Tl) = 7.1
+Assuming a Carnot efficiency of 0.55, we have an actual COP of 3.9.
 
 The heat pump has 2 heat exchangers and a compressor to be sized, with associated electronics and safety equipment included in the bare module cost factor. 
 
-Cost of evaporator: Heat load varies from 5580 kW to 7295 kW. U = 484.615 W/m2/C.
+Cost of evaporator: Heat load varies from 6000 kW to 7840 kW. U = 484.615 W/m2/C.
 
-A_evap = 2014 m2 to 2633 m2.
+A_evap = 2165.6 m2 to 2830 m2.
 
 Cost of condenser: Heat load varies from 8060 to 10540 kW. U_cond = 1600 W/m2/C, => U = 414.815 W/m2/C.
 
@@ -55,8 +55,33 @@ Supply temperature = 50 degrees Celsius, => Heat pump condenser temperature = 55
 
 A_cond = 2694 m2 to 3522.6 m2 
 
-Pump power varies from 2480 kW to 3245 kW.
+Pump power varies from 2060 kW to 2700 kW.
+
+Purchase cost Cp = It/It_ref x 10^(k1 + k2logA + k3 logA^2)
+
+For heat exchangers, we choose k1 = 3.8258, k2 = 0.4242, k3 = 0. It_ref = 389.5.
+
+CEPCI Index for 2018 = 
 
 
+#####################################
 
+Medium temperature heat pump system:
 
+Condenser temperature = 65 + 5 = 70 degrees Celsius, Ideal COP is 5.6.
+
+For the same Carnot efficiency of 55%, we have an actual COP of 3.07.
+
+Cost of condenser: Heat load varies from 4290 to 5610 kW.
+
+U = 414.815 W/m2/C. Heat pump condenser temperature = 70 degrees Celsius. Water temperature changes from 65 to 60 degrees, giving us an LMTD of 7.213 degrees Celsius.
+
+A_cond = 1433.8 to 1874.96 m2.
+
+Pump power varies from 1400 kW to 1830 kW.
+
+Cost of evaporator: Heat load varies from 2890 kW to 3780 kW.
+
+A_evap = 1043.1 to 1364.3 m2.
+
+#####################################
