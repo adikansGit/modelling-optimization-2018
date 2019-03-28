@@ -59,9 +59,12 @@ Pump power varies from 2060 kW to 2700 kW.
 
 Purchase cost Cp = It/It_ref x 10^(k1 + k2logA + k3 logA^2)
 
-For heat exchangers, we choose k1 = 3.8258, k2 = 0.4242, k3 = 0. It_ref = 389.5.
+For heat exchangers, we choose k1 = 3.8258, k2 = 0.4242, k3 = 0. It_ref = 389.5. Bare module factor = 4.74.
 
-CEPCI Index for 2018 = 
+CEPCI Index for 2018 = 567.5
+
+Purchase Cost of condenser = 278,248.65 USD to 311,772.5 USD
+Purchase cost of evaporator = 253,635 USD to 284,122.9 USD
 
 
 #####################################
@@ -83,5 +86,9 @@ Pump power varies from 1400 kW to 1830 kW.
 Cost of evaporator: Heat load varies from 2890 kW to 3780 kW.
 
 A_evap = 1043.1 to 1364.3 m2.
+
+Purchase cost of condenser = 212,932 USD to 238,595.2 USD
+Purchase cost of evaporator = 186,051.1 USD to 208,490 USD
+
 
 #####################################
