@@ -1,0 +1,19 @@
+
+
+let Buildings := Buildings union {'Building7'};								# Add "Building7" to set of Buildings
+let MediumTempBuildings := MediumTempBuildings union {'Building7'}; 		# Decide if it belongs to Medium or Low Temperature Buildings
+
+###########BUILDING SPECIFIC PARAMETER  Time  Independend ##########################
+
+let FloorArea['Building7'] := 26586;
+let k_th['Building7']:= 0.00438 ;												# ATTENTION unit in kW
+let k_sun['Building7']:= 0.09;
+let specQ_people['Building7']:= 0.0069298;										# ATTENTION unit in kW
+
+###########BUILDING SPECIFIC PARAMETER  Time  Dependend ##########################
+let specElec['Building7',1] := 0.0203;										# ATTENTION unit in kW
+let specElec['Building7',2] := 0.0203;										# ATTENTION unit in kW
+let specElec['Building7',3] := 0.0203;										# ATTENTION unit in kW
+let specElec['Building7',4] := 0.0203;										# ATTENTION unit in kW
+let specElec['Building7',5] := 0.0044;										# ATTENTION unit in kW
+let specElec['Building7',6] := 0.0203;										# ATTENTION unit in kW
