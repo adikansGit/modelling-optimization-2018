@@ -80,7 +80,9 @@ Adding 174% of the cost for piping and electrical components gives us a bare mod
 ##Purchase cost of compressor = 1,919,794 USD to 2,175,135 USD
 
 
-Overall, we have a total cost for the low temperature heat pump varying from 2,472,189 USD to 2,851,541 USD. If we express this as a function of the compressor power, we have C = 592.7375xP + 1,251,149.75 USD. 
+Overall, we have a total cost for the low temperature heat pump varying from 2,472,189 USD to 2,851,541 USD. If we consider the lifetime of the system to be 30 years, and assume a constant interest rate of 8%, the yearly price we pay for the system becomes 170,530 USD to 193,212 USD/year.
+
+If we express this as a function of the compressor power, we have C = 35.44xP + 97522.3125 USD. 
 
 #####################################
 
