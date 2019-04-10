@@ -80,9 +80,9 @@ Adding 174% of the cost for piping and electrical components gives us a bare mod
 ##Purchase cost of compressor = 1,919,794 USD to 2,175,135 USD
 
 
-Overall, we have a total cost for the low temperature heat pump varying from 2,472,189 USD to 2,851,541 USD. If we consider the lifetime of the system to be 30 years, and assume a constant interest rate of 8%, the yearly price we pay for the system becomes 170,530 USD to 193,212 USD/year.
+Overall, we have a total cost for the low temperature heat pump varying from 2,472,189 USD to 2,851,541 USD. If we consider the lifetime of the system to be 30 years, and assume a constant interest rate of 8%, the yearly price we pay for the system becomes 219,598 USD to 253,295 USD/year.
 
-If we express this as a function of the compressor power, we have C = 35.44xP + 97522.3125 USD. 
+If we express this as a function of the compressor power, we have C = 52.65xP + 111139 USD. 
 
 #####################################
 
@@ -120,7 +120,9 @@ Adding 174% of the cost for piping and electrical components gives us a bare mod
 
 ##Purchase cost of the compressor = 1,426,482 USD to 1,542,494 USD
 
-Overall, we have a total cost for the medium temperature heating system varying from 1,785,797 USD to 1,967,801 USD. Expressing this as a function of the compressor power gives us C = 423.265xP + 1193225.84 USD. 
+Overall, we have a total cost for the medium temperature heating system varying from 1,785,797 USD to 1,967,801 USD. If we consider the lifetime of the system to be 30 years, and assume a constant interest rate of 8%, the yearly price we pay for the system becomes 158,627 USD to 174,795 USD/year.
+
+Expressing this as a function of the compressor power gives us C = 37.6xP + 105987 USD. 
 
 #####################################
 
