@@ -6,5 +6,5 @@ COP_MT = 3.07;
 /*---------------------------------------------------------------------------------------------------------------------------------------
 Electricty demand of the heat pump is equal to the condenser load divided by the COP
 ---------------------------------------------------------------------------------------------------------------------------------------*/
-let Qheatingsupply['HP1stageMT'] := Flowin['Electricity','HP1stageLT'] * COP_LT; 
+let Qheatingsupply['HP1stageMT'] := Flowin['Electricity','HP1stageMT'] * COP_MT; 
 
